@@ -19,7 +19,7 @@ def main():
     print(f"Datos guardados en {output_file}.")
 
     # Visualizar los datos para un estado específico
-    plot_state_data(covid_data, 'NY')
+    plot_state_data(covid_data, 'NY','CA','TX')
 
     # Generar el informe
     generate_report(covid_data)
